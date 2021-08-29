@@ -1,4 +1,23 @@
-header {
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;600&display=swap");
+* {
+  font-family: "Oswald", sans-serif;
+}
+
+.font-low {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 200;
+}
+
+.font-high {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+}
+
+.carousel-item {
+  height: 500px;
+}
+
+.hero {
   position: relative;
   background-color: black;
   height: 100vh;
@@ -7,7 +26,7 @@ header {
   overflow: hidden;
 }
 
-header video {
+.hero .video {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -20,12 +39,12 @@ header video {
   transform: translateX(-50%) translateY(-50%);
 }
 
-header .container {
+.hero .container {
   position: relative;
   z-index: 2;
 }
 
-header .overlay {
+.hero .overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -34,5 +53,19 @@ header .overlay {
   background-color: black;
   opacity: 0.5;
   z-index: 1;
+}
+
+.hero .btn {
+  background-color: #4c8f3b !important;
+  font-size: 2rem;
+}
+
+.hero {
+  background-image: url(/img/capybara2.jpg);
+  color: #ddd;
+  background-position: top;
+  background-size: cover;
+  max-height: 700px;
+  width: 100%;
 }
 /*# sourceMappingURL=style.css.map */
