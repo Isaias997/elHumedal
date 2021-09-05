@@ -1,8 +1,18 @@
-.font-low{
-  font-family: 'Oswald', sans-serif;
-  font-weight: 200;
+.ft-lg{
+  font-family:  'Raleway', sans-serif;
+  font-weight: 400;
 }
-.font-high{
-  font-family:'Oswald', sans-serif ;
-  font-weight: 600;
+
+.ft-hv{
+  font-family:  'Raleway', sans-serif;
+  font-weight: 700;
+}
+
+.bg-dark{
+  color:$dark
+}
+.bd-1{
+  -webkit-box-shadow: 10px 10px 36px -15px rgba(0,0,0,0.18);
+  -moz-box-shadow: 10px 10px 36px -15px rgba(0,0,0,0.18);
+  box-shadow: 10px 10px 36px -15px rgba(0,0,0,0.18);
 }
