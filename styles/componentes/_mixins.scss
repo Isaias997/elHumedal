@@ -1,0 +1,16 @@
+.margin{
+  font-family: 'Courier New', Courier, monospace
+}
+@mixin randomClass($nombre, $propiedad, $valor){
+  .#{$nombre} {
+    @extend .margin;
+    #{$propiedad}:$valor;
+  }
+}
+
+@for $i from 1 through 5 {
+  @include randomClass(mt-#{$i}, margin-top, $i);
+  @include randomClass(mb-#{$i}, margin-bottom, $i);
+  @include randomClass(ml-#{$i}, margin-left, $i);
+  @include randomClass(mr-#{$i}, margin-right, $i);
+}
