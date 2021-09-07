@@ -11,8 +11,7 @@
 .bg-dark{
   color:$dark
 }
-.bd-1{
-  -webkit-box-shadow: 10px 10px 36px -15px rgba(0,0,0,0.18);
-  -moz-box-shadow: 10px 10px 36px -15px rgba(0,0,0,0.18);
-  box-shadow: 10px 10px 36px -15px rgba(0,0,0,0.18);
+.img-shadow{
+  -webkit-box-shadow: 5px 7px 18px -1px rgba(0,0,0,0.53); 
+box-shadow: 5px 7px 18px -1px rgba(0,0,0,0.53);
 }
